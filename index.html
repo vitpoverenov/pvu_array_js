@@ -1,25 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+  href="https://fonts.googleapis.com/css2?family=Cuprum:wght@500;600;700&family=Poppins:wght@400;500;600&display=swap"
+  rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="/favicon.svg" type="image/svg-icon">
+  <title>a7studio | by PVU</title>
+</head>
+<body>
 
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Math test program | pvu</title>
-  </head>
+  <header class="header" data-header>
+    <div class="container">
 
-  <body>
-    <p>Сколько будет 1+1 ?</p>
-    <input type="text" id="q1">
-    <p>Сколько будет 1+4 ?</p>
-    <input type="text" id="question-2">
-    <p>Сколько будет 1+6 ?</p>
-    <input type="text" id="question-3">
-    <br>
-    <button id="finish">
-      Проверить
-    </button>
-    <script src="/script.js"></script>
-  </body>
+      <a href="#" class="logo">A7 | Studio</a>
 
-</html>
+      <nav class="navbar" data-navbar>
+
+        <div class="wrapper">
+          <a href="#" class="logo">A7 | Studio</a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link" data-nav-link>About</a>
+          </li>
+
+          <li>
+            <a href="#services" class="navbar-link" data-nav-link>Services</a>
+          </li>
+
+          <li>
+            <a href="#features" class="navbar-link" data-nav-link>Features</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link" data-nav-link>Blog</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link" data-nav-link>Contact Us</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <a href="#" class="btn-outline">Lets talk</a>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+  <main class="main">
+    <article>
+
+      <section class="section hero" id="home" aria-label="hero">
+        <div class="container">
+          <div class="hero-content">
+            <h1>
+              Strony internetowe tworzone tak, aby Twój biznes zarabiał
+            </h1>
+            <p class="hero-subtitle has-before">
+              Po roku sam ocenisz jak bardzo zadowolony jesteś A7 agency
+            </p>
+            <p class="hero-text">
+              Projektujemy i wdrażamy również różnego rodzaju portale i wortale tematyczne. Stosujemy nowoczesne, niezawodne technologie, dopasowane do potrzeb, wymagań i założeń klienta. Dbamy o użytkownika. Bazując na wieloletniej wiedzy i doświadczeniach wyniesionych z pracy w branży, tak projektujemy interfejs portalu (UX), aby spełniał wszystkie oczekiwania stawianie przez coraz bardziej wymagających internautów.
+              Dzięki odpowiedniemu zapleczu naszych partnerów i specjalistów, posiadamy dostęp do wysokiej jakości programistów, którzy specjalizują się w takich językach programowania i technologiach jak PHP, MySQL, Ruby on Rails, JavaScript, jQuery, HTML, CSS, Git i wielu innych.
+            </p>
+          </div>
+          <div>
+            <img 
+              class="hero-banner has-before img-holder"
+              src="/pvu_a7studioweb/img/hero-banner.png" 
+              alt="hero banner" 
+              width="650px" 
+              height="650px"
+            >
+          </div>
+        </div>  
+
+      </section>
+
+    </article>
+  </main>
+
+
+
+    <script src="/pvu_a7studioweb/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
